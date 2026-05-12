@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MLOps Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;700;800&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="grid-bg"></div>
+  <div class="scan-line"></div>
+
+  <div class="content">
+ 
+    <nav>
+      <div class="logo">[ MLOps.dev ]</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Stack</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home">
+      <div class="hero">
+        <div class="hero-label">// MLOps Engineer</div>
+        <h1>ZAYAN<br><span>AHMAD</span><br>GHOUS.</h1>
+        <div class="hero-role">$ machine_learning_engineer --ops --scale</div>
+        <p class="hero-bio">
+          I build the infrastructure that takes ML models from experimentation to production
+          designing robust pipelines, automating model deployment, and ensuring models stay
+          reliable at scale.
+        </p>
+        <div class="hero-actions">
+          <!-- <button class="btn-primary" onclick="showSection('projects')">View Projects</button>
+          <button class="btn-secondary" onclick="showSection('contact')">Get in Touch</button> -->
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="#contact" class="btn-secondary">Get in Touch</a>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- SKILLS -->
+
+
+    <section id="skills">
+      <div class="skills-section">
+        <div class="section-label">// Technical Stack</div>
+        <h2 class="section-title">What I work with</h2>
+
+        <div class="skills-grid">
+
+          <div class="skill-card">
+            <div class="skill-cat">Programming Languages</div>
+            <p class="skill-desc">
+              Building ML pipelines, backend APIs, and optimized algorithms.
+            </p>
+            <div class="skill-tags">
+              <span class="tag">Python (ML, APIs)</span>
+              <span class="tag">C++ (DSA, Performance)</span>
+              <span class="tag">SQL (Data Handling)</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-cat">Exploratory Data Analysis</div>
+            <p class="skill-desc">
+              Data cleaning, visualization, and feature engineering for ML models.
+            </p>
+            <div class="skill-tags">
+              <span class="tag">Pandas</span>
+              <span class="tag">NumPy</span>
+              <span class="tag">Matplotlib</span>
+              <span class="tag">Seaborn</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-cat">Artificial Intelligence</div>
+            <p class="skill-desc">
+              Developing and training machine learning and deep learning models.
+            </p>
+            <div class="skill-tags">
+              <span class="tag">Machine Learning</span>
+              <span class="tag">Deep Learning</span>
+              <span class="tag">PyTorch</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-cat">MLOps & Deployment (Learning)</div>
+            <p class="skill-desc">
+              Currently learning model deployment, tracking, and scalable pipelines.
+            </p>
+            <div class="skill-tags">
+              <span class="tag">FastAPI</span>
+              <span class="tag">MLflow</span>
+              <span class="tag">Docker</span>
+              <span class="tag">Kubeflow</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-cat">Tools & Platforms</div>
+            <p class="skill-desc">
+              Version control, experimentation, and data visualization tools.
+            </p>
+            <div class="skill-tags">
+              <span class="tag">Git</span>
+              <span class="tag">GitHub</span>
+              <span class="tag">VS Code</span>
+              <span class="tag">Jupyter</span>
+              <span class="tag">Power BI</span>
+              <span class="tag">Tableau</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="projects-section">
+        <div class="section-label">// Selected Work</div>
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+
+          <div class="project-card">
+            <div class="project-badge">Healthcare</div>
+            <div class="project-title">Brain Tumor Detection</div>
+            <p class="project-desc">Developed a deep learning model using tensorflow.
+              Deployed interactive web app using hugging face spaces.
+              Impletemented real-time image prediction system.
+            </p>
+            <div class="project-stack">
+              <span class="stack-tag">Python</span>
+              <span class="stack-tag">Matplotlib</span>
+              <span class="stack-tag">TensorFlow</span>
+              <span class="stack-tag">Convolutional Neural Networks</span>
+
+              <!-- MY OWN -->
+              <div class="project-links">
+                <a href="https://github.com/ZayanAhmadGhous/Brain_Tumor" target="_blank">
+                  GitHub Repo
+                </a>
+                <a href="https://huggingface.co/spaces/Ghous/brain_tumor" target="_blank">
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="project-card">
+            <div class="project-badge">Healthcare</div>
+            <div class="project-title">Diabetes Prediction App</div>
+            <p class="project-desc">Developed and deployed a real-time ML-based diabetes prediction system with an interactive UI using Gradio on Hugging Face.
+            </p>
+            <div class="project-stack">
+              <span class="stack-tag">Python</span>
+              <span class="stack-tag">Scikit Learn</span>
+              <span class="stack-tag">Numpy</span>
+              <span class="stack-tag">Joblib</span>
+              <span class="stack-tag">Gradio</span>
+
+              <!-- MY OWN -->
+              <div class="project-links">
+                <a href="https://github.com/ZayanAhmadGhous/diabetes-prediction-app" target="_blank">
+                  GitHub Repo
+                </a>
+                <a href="https://huggingface.co/spaces/Ghous/diabetes-prediction" target="_blank">
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>          
+
+
+
+
+
+
+          <div class="project-card">
+            <div class="project-badge">OOP</div>
+            <div class="project-title">Smart Habit Tracker</div>
+            <p class="project-desc">The Smart Habit Tracker is an interactive application built with Object-Oriented
+              Programming (OOP) principles and Streamlit for visualization. It allows users to track habits, visualize
+              progress, and receive tailored habit recommendations.</p>
+            <div class="project-stack">
+              <span class="stack-tag">Python</span>
+              <span class="stack-tag">Object Oriented Programming</span>
+              <!-- MY OWN -->
+              <div class="project-links">
+                <a href="https://github.com/ZayanAhmadGhous/Smart_Habit_Tracker" target="_blank">
+                  GitHub Repo
+                </a>
+                <a href="https://smarthabittracker.streamlit.app/" target="_blank">
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-badge">DataBase</div>
+            <div class="project-title">Student Fees Management System</div>
+            <p class="project-desc">A web application for managing student fees and payments, built with Django.</p>
+            <div class="project-stack">
+              <span class="stack-tag">Python</span>
+              <span class="stack-tag">SQL</span>
+              <span class="stack-tag">Django</span>
+              <span class="stack-tag">Login</span>
+
+              <!-- CHECKING -->
+
+              <div class="project-links">
+                <a href="https://github.com/ZayanAhmadGhous/Student_Fee_managment_using_Django_with_login"
+                  target="_blank">
+                  GitHub Repo
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="project-card">
+            <div class="project-badge">Healthcare</div>
+            <div class="project-title">Heart Disease Prediction</div>
+            <p class="project-desc">Developed a machine learning model to predict the likelihood of heart disease based
+              on patient data, achieving 85% accuracy on a dataset patients.</p>
+            <div class="project-stack">
+              <span class="stack-tag">Python</span>
+              <span class="stack-tag">scikit-learn</span>
+              <span class="stack-tag">Pandas</span>
+              <!-- <span class="stack-tag">NumPy</span> -->
+              <!-- MY OWN -->
+              <div class="project-links">
+                <a href="https://github.com/ZayanAhmadGhous/Projects/blob/main/03_heart_disease_detection.ipynb"
+                  target="_blank">
+                  GitHub Repo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <a class="contact-link" href="https://github.com/ZayanAhmadGhous" target="_blank">
+          <div class="contact-icon">gh</div>
+          <div class="contact-text">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/ZayanAhmadGhous</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+
+
+    <section id="experience">
+      <div class="exp-section">
+        <div class="section-label">// Education History</div>
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+
+          <div class="tl-item">
+            <div>
+              <div class="tl-year">Current · 4th Sem</div>
+              <div class="tl-company">Minhaj University, Lahore</div>
+            </div>
+            <div>
+              <div class="tl-role">BS Computer Science</div>
+              <p class="tl-desc">Studying core CS fundamentals with a focus on machine learning, data systems, and
+                software engineering. Actively building MLOps projects alongside coursework.</p>
+              <span
+                style="display:inline-block; font-family:'Space Mono',monospace; font-size:10px; letter-spacing:1px; background:rgba(0,255,180,0.12); color:#00ffb4; padding:2px 8px; margin-top:6px;">CGPA
+                3.66 / 4.0</span>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div>
+              <div class="tl-year">Intermediate</div>
+              <div class="tl-company">Punjab Group of Colleges</div>
+            </div>
+            <div>
+              <div class="tl-role">ICS — Intermediate in Computer Science</div>
+              <p class="tl-desc">Studied Computer Science, Mathematics, and Physics. Built a strong foundation in
+                programming and analytical thinking.</p>
+            </div>
+          </div>
+
+          <div class="tl-item">
+            <div>
+              <div class="tl-year">Matriculation</div>
+              <div class="tl-company">Government High School</div>
+            </div>
+            <div>
+              <div class="tl-role">Secondary School Certificate (SSC)</div>
+              <p class="tl-desc">Completed secondary education with a focus on science subjects.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="contact-section">
+        <div class="section-label">// Get In Touch</div>
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-grid">
+          <a class="contact-link" href="mailto:your@email.com">
+            <div class="contact-icon">@</div>
+            <div class="contact-text">
+              <span class="contact-label">Email</span>
+              <span class="contact-value">zayanahmad.ghous@email.com</span>
+            </div>
+          </a>
+          <a class="contact-link" href="https://www.linkedin.com/in/zayan-ahmad-23863625b/" target="_blank">
+            <div class="contact-icon">in</div>
+            <div class="contact-text">
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-value">linkedin.com/in/ZayanAhmadGhous</span>
+            </div>
+          </a>
+          <a class="contact-link" href="https://github.com/ZayanAhmadGhous" target="_blank">
+            <div class="contact-icon">gh</div>
+            <div class="contact-text">
+              <span class="contact-label">GitHub</span>
+              <span class="contact-value">github.com/ZayanAhmadGhous</span>
+            </div>
+          </a>
+          <a class="contact-link" href="resume.pdf" target="_blank">
+            <div class="contact-icon">cv</div>
+            <div class="contact-text">
+              <span class="contact-label">Resume</span>
+              <span class="contact-value">Download PDF</span>
+            </div>
+          </a>
+        </div>
+        <div class="terminal-note">Open to MLOps and AI/ML roles.</div>
+      </div>
+    </section>
+  </div>
+
+
+
+</body>
+
+</html>
